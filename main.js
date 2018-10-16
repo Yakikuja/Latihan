@@ -30,18 +30,18 @@ const Sh = document.querySelector('input[name=Shijau]');
 const Sb = document.querySelector('input[name=Sbiru]');
 
 
-Sm.addEventListener('change', function(){  
+Sm.addEventListener('input', function(){  
     const r = Sm.value;
     document.body.style.backgroundColor = 'rgb('+ r +',100,100)';
 });
 
-Sh.addEventListener('change', function () {
+Sh.addEventListener('input', function () {
     const r = Sm.value;
     const g = Sh.value;
     document.body.style.backgroundColor = 'rgb(' + r +',' + g + ',100 )';
 })
 
-Sb.addEventListener('change', function(){  
+Sb.addEventListener('input', function(){  
     const r = Sm.value;
     const g = Sh.value;
     const b = Sb.value;
